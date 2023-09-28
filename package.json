@@ -1,0 +1,26 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sucrase": "^3.34.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.7.1",
+    "@types/validator": "^13.11.2",
+    "ts-loader": "^9.4.4",
+    "validator": "^13.11.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
