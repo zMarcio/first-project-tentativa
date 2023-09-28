@@ -87,16 +87,16 @@ body {
     filter: brightness(80%);    
 }
 
-/* .form .error-message{
+.form .error-message{
     font-size: 9pt;
     padding: 5px 0;
     color: var(--error-color);
     font-style: italic;
     display: none;
-} */
+}
 
 
-.form .error-message-name {
+/* .form .error-message-name {
     font-size: 9pt;
     padding: 5px 0;
     color: var(--error-color);
@@ -126,7 +126,7 @@ body {
     color: var(--error-color);
     font-style: italic;
     display: none;
-}
+} */
 
 .form .show-error-message .error-message {
     display: block;
